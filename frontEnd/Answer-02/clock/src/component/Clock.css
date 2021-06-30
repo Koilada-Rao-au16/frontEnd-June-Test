@@ -1,0 +1,22 @@
+.time{
+    border: 2px solid rgb(2, 2, 2);
+    margin-left: 370px ;
+    /* margin-right: 500px ; */
+    font-size: 1000px;
+    width:700px;
+    height:240px;
+    margin-top: 200px;
+    background-color: rgb(245, 215, 215);
+    border-radius: 1rem;
+    color: rgb(31, 128, 219);
+    box-shadow: rgb(147, 158, 207) 1rem 1rem;
+
+}
+
+h1 {
+    font-size:10rem ;
+}
+
+h2 {
+    font-size: 5rem
+}
