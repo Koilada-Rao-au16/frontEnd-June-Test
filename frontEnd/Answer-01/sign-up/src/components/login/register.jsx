@@ -25,23 +25,22 @@ export class Register extends React.Component {
             </div>
             <div className="form-group">
               <label htmlFor="password">Password</label>
-              <input type="text" name="password" placeholder="password" />
+              <input type="password" name="password" placeholder="password" />
             </div>
-            <div className="form-group">
-              <label htmlFor="password">Email</label>
-              <input type="password" name="email" placeholder="email" />
+            <div className="form-gender">
+              <label htmlFor="password">Gender <br/></label>
+              <input type="checkbox" value="Male" name="gender" /> Male
+              <input type="checkbox" value="Female" name="gender" /> Female
+              <input type="checkbox" value="Other" name="gender" /> Other
             </div>
-            <div className="form-group">
-              <label htmlFor="password">Gender</label>
-              <input type="password" name="gender" placeholder="gender" />
-            </div>
+           
             <div className="form-group">
               <label htmlFor="password">About</label>
-              <input type="password" name="about" placeholder="about" />
+              <input type="text" name="about" placeholder="about" />
             </div>
             <div className="form-group">
               <label htmlFor="password">Terms and conditions</label>
-              <input type="password" name="terms and conditions" placeholder="terms and coditions" />
+              <input type="text" name="terms and conditions" placeholder="terms and coditions" />
             </div>
           </div>
         </div>

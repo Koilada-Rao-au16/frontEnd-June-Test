@@ -1,3 +1,9 @@
+
+*{
+  background-color:rgb(245, 153, 32) ;
+}
+
+
 .base-container {
   width: 100%;
   display: flex;
@@ -47,9 +53,8 @@
           border-radius: 4px;
           margin-bottom: 31px;
           transition: all 250ms ease-in-out;
-          &:hover {
-            //background-color: #ffffff;
-            //box-shadow: 0px 0px 14px 0.3px #0e81ce96;
+          :hover {
+            background-color: aqua ;
           }
 
           &:focus {
@@ -64,4 +69,13 @@
   .footer {
     margin-top: 3em;
   }
+}
+
+.form-gender {
+  text-align: left;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: fit-content;
 }
